@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: 'Comic Neue', sans-serif;
+    line-height: 1.6;
+    color:#ec84b8;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/back.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keep the background fixed */
+    background-color: #f0f0f0; /* Fallback color */
+}
+
+/* Header Styles */
+header {
+    background: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+    border-bottom: 2px solid #e0e0e0; /* Light grey border */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for header */
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.Navicon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.divider {
+    border-left: 1px solid #e0e0e0;
+    height: 20px;
+}
+
+/* Content Styles */
+.content {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.95); /* Slightly opaque white background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Title and Icons */
+.title-with-icons {
+    font-size: 28px;
+    margin-bottom: 20px;
+    position: relative;
+    color:#ec84b8;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    color:#ec84b8;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color:#ec84b8;
+    margin: 0 0 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* Paragraphs */
+p {
+    margin: 0 0 20px;
+    color: #555; /* Slightly lighter color for better readability */
+}
+
+/* Footer Styles */
+.footer {
+    background:#ec84b8; /* Pink color */
+    color: #fff;
+    text-align: center;
+    padding: 10px; /* Reduced padding for a smaller footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ec84b8; /* Slightly darker pink border */
+    font-size: 14px; /* Smaller font size */
+}
+
+.footer-content {
+    margin: 0;
+}
+

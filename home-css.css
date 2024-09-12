@@ -1,0 +1,138 @@
+body {
+    background: url('img/back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Comic Neue', sans-serif;
+    color: #FF69B4; /* 樱花粉 */
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.header h1, .footer p {
+    margin: 0;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    color: #FF69B4;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.header-right .divider {
+    width: 1px;
+    height: 20px;
+    background-color: #FF69B4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.translucent {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.intro, .best-seller, .info {
+    margin-bottom: 20px;
+}
+
+.best-seller-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #FF69B4; /* 樱花粉 */
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 80%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.best-seller-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.best-seller-img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.best-seller-text {
+    padding: 20px;
+    text-align: left;
+    width: 60%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #FF69B4; /* 樱花粉 */
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 80%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.info-img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.info-text {
+    padding: 20px;
+    text-align: left;
+    width: 60%;
+}
+.Navicon {
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer;
+    object-fit: contain; 
+}

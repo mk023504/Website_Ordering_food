@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="Product-css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <h1>JapSnack</h1>
+            <img src="img/about-japanese-sweets.png" alt="Company Logo" class="header-logo">
+        </div>
+        <nav class="header-right">
+            <a href="index.html"><img src="img/Home.png" alt="Company Logo" class="Navicon"></a>
+            <div class="divider"></div>
+            <a href="Product.html"><img src="img/Product.png" alt="Company Logo" class="Navicon"></a>
+            <div class="divider"></div>
+            <a href="About.html"><img src="img/About.png" alt="Company Logo" class="Navicon"></a>
+            <div class="divider"></div>
+            <a href="Contact.html"><img src="img/Contact.png" alt="Company Logo" class="Navicon"></a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="search-container">
+            <input type="text" placeholder="Search products..." class="search-bar">
+            <select class="flavor-select">
+                <option value="">Select Flavor</option>
+                <option value="sweetz">Sweet</option>
+                <option value="salty">Salty</option>
+                <option value="sour">Sour</option>
+                <option value="spicy">Spicy</option>
+            </select>
+        </section>
+
+        <!-- Product Listings -->
+        <section class="product-list">
+            <div class="product-item">
+                <img src="img/karinto.jpg" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <h3>Karinto</h3>
+                    <p><strong>Weight:</strong> 100g</p>
+                    <p><strong>Ingredients:</strong> Sugar, Rice Flour, etc.</p>
+                    <p><strong>Nutritional Value:</strong> 200 kcal per 100g</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="img/daifuku.jpg" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <h3>Mochi</h3>
+                    <p><strong>Weight:</strong> 120g</p>
+                    <p><strong>Ingredients:</strong> Glutinous Rice, Sugar, etc.</p>
+                    <p><strong>Nutritional Value:</strong> 250 kcal per 100g</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="img/dango.jpg" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <h3>Pocky</h3>
+                    <p><strong>Weight:</strong> 50g</p>
+                    <p><strong>Ingredients:</strong> Wheat Flour, Sugar, etc.</p>
+                    <p><strong>Nutritional Value:</strong> 300 kcal per 100g</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="img/konpeito.jpg" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <h3>Taiyaki</h3>
+                    <p><strong>Weight:</strong> 180g</p>
+                    <p><strong>Ingredients:</strong> Red Bean, Sugar, etc.</p>
+                    <p><strong>Nutritional Value:</strong> 220 kcal per 100g</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="img/yokan.jpg" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <h3>Daifuku</h3>
+                    <p><strong>Weight:</strong> 200g</p>
+                    <p><strong>Ingredients:</strong> Glutinous Rice, Red Bean Paste, etc.</p>
+                    <p><strong>Nutritional Value:</strong> 280 kcal per 100g</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="img/new.webp" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <h3>Dorayaki</h3>
+                    <p><strong>Weight:</strong> 140g</p>
+                    <p><strong>Ingredients:</strong> Wheat Flour, Eggs, Red Bean Paste, etc.</p>
+                    <p><strong>Nutritional Value:</strong> 290 kcal per 100g</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="img/japanese-delicious-desserts.jpg" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <h3>Yokan</h3>
+                    <p><strong>Weight:</strong> 110g</p>
+                    <p><strong>Ingredients:</strong> Red Bean, Agar, Sugar, etc.</p>
+                    <p><strong>Nutritional Value:</strong> 240 kcal per 100g</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="img/japanese-desserts-monaka.jpg.webp" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <h3>Kuzumochi</h3>
+                    <p><strong>Weight:</strong> 160g</p>
+                    <p><strong>Ingredients:</strong> Kudzu Starch, Sugar, etc.</p>
+                    <p><strong>Nutritional Value:</strong> 260 kcal per 100g</p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="img/soft.webp" alt="Product Image" class="product-image">
+                <div class="product-info">
+                    <h3>Senbei</h3>
+                    <p><strong>Weight:</strong> 80g</p>
+                    <p><strong>Ingredients:</strong> Rice Flour, Soy Sauce, etc.</p>
+                    <p><strong>Nutritional Value:</strong> 210 kcal per 100g</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pagination -->
+        <section class="pagination">
+            <div class="pagination-div">
+                <a href="#">&laquo; Previous</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">Next &raquo;</a>
+            </div>
+        </section>
+    </main>
+    <div class="basket-button">
+        <a href="#"><img src="img/basket.png" alt="shapping cart" class="basket-icon"></a>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 JapCandy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
